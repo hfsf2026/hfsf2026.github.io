@@ -1,9 +1,9 @@
 # ---------------------------------------------------------------
 # Site settings — edit these
 # ---------------------------------------------------------------
-title: Projects
+title: Project for HFSF2026 
 description: A collection of projects in jet physics.
-author: Your Name
+author: Hadronic Final State Forum 2026
 
 # If the site lives at https://USERNAME.github.io/REPO-NAME/
 # set baseurl to "/REPO-NAME". If it lives at https://USERNAME.github.io/
@@ -16,6 +16,7 @@ url: ""
 project_categories:
   - Jet Reconstruction
   - Jet Definitions
+  - HL-LHC
 
 # ---------------------------------------------------------------
 # Build settings — no need to touch
