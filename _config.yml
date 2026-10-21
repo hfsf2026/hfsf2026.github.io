@@ -1,0 +1,42 @@
+# ---------------------------------------------------------------
+# Site settings — edit these
+# ---------------------------------------------------------------
+title: Projects
+description: A collection of projects in jet physics.
+author: Your Name
+
+# If the site lives at https://USERNAME.github.io/REPO-NAME/
+# set baseurl to "/REPO-NAME". If it lives at https://USERNAME.github.io/
+# leave it as "".
+baseurl: ""
+url: ""
+
+# Section headings on the projects page, in display order.
+# Each project's `category:` must match one of these exactly.
+project_categories:
+  - Jet Reconstruction
+  - Jet Definitions
+
+# ---------------------------------------------------------------
+# Build settings — no need to touch
+# ---------------------------------------------------------------
+markdown: kramdown
+kramdown:
+  math_engine: mathjax
+
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name/
+
+defaults:
+  - scope:
+      path: ""
+      type: projects
+    values:
+      layout: project
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
