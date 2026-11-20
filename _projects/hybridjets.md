@@ -1,7 +1,7 @@
 ---
 title: Hybrid Jet Reclustering
 description: Large-R jets built from groomed small-R calorimeter jets, with all primary-vertex tracks kept across the full jet area.
-img: assets/img/hybrid-reclustering-scheme.png
+img: assets/img/hybridjets/hybrid-reclustering-scheme.png
 category: Jet Definitions
 importance: 3
 math: true
