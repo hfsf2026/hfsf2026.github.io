@@ -3,7 +3,7 @@ title: Hybrid Jet Reclustering
 description: Large-R jets built from groomed small-R calorimeter jets, with all primary-vertex tracks kept across the full jet area.
 img: assets/img/hybridjets/hybrid-reclustering-scheme.png
 category: Jet Definitions
-importance: 3
+importance: 1
 math: true
 ---
 
@@ -16,7 +16,12 @@ but it also removes hard scatter track consitutents that happen to fall outside 
 <div class="row">
 <img src="{{ '/assets/img/hybridjets/hybrid-reclustering-ttbar.png' | relative_url }}" alt="Large-R jets vs. reclustered jets in a simulated Z' to ttbar event">
 </div>
-<div class="caption">Stable truth particles in a simulated $$Z' \to t\bar{t}$$ event ($$m_{Z'} = 1.5$$ TeV). Left: anti-$$k_t$$ $$R=1.0$$ jets. Right: the same jets reclustered from $$r=0.3$$ subjets: only particles inside the small-R jets survive.</div>
+<div class="caption">
+    Stable truth particles in a simulated \(Z' \to t\bar{t}\) event (\(m_{Z'} = 1.5\) TeV). 
+    Left: anti-\(k_t\) \(R=1.0\) jets. 
+    Right: the same jets reclustered from \(r=0.3\) subjets: only particles inside the small-R jets survive.
+</div>
+
 
 ## The hybrid idea
 
@@ -31,10 +36,14 @@ A **hybrid** reclustering algorithm therefore treats the two inputs differently:
 
 The result is a large-R jet with groomed calorimeter kinematics but a complete, pileup-suppressed set of charged constituents for substructure.
 
-<div class="row">
-<img src="{{ '/assets/img/hybridjets/hybrid-reclustering-scheme.png' | relative_url }}" alt="Scheme of a hybrid jet">
+<div class="row" style="justify-content: center;">
+<img src="{{ '/assets/img/hybridjets/hybrid-reclustering-scheme.png' | relative_url }}" alt="Scheme of a hybrid jet" style="display: block; margin: 0 auto; max-width: 350px; height: auto;">
 </div>
-<div class="caption">A large-R jet (grey) built from $$R=0.4$$ EMTopo jets (orange). Standard reclustering keeps only the tracks associated with the small-R jets; hybrid reclustering keeps all tracks inside the large-R jet.</div>
+<div class="caption">
+    A large-R jet (grey) built from \(R=0.4\) EMTopo jets (orange). 
+    Standard reclustering keeps only the tracks associated with the small-R jets. Hybrid reclustering keeps all tracks inside the large-R jet.
+</div>
+
 
 ## Motivation
 
@@ -65,13 +74,13 @@ First look at this method showed promising results.
 <img src="{{ '/assets/img/hybridjets/hybrid-event-display.png' | relative_url }}" alt="Event display of reclustered jets">
 <img src="{{ '/assets/img/hybridjets/hybrid-nsmallR.png' | relative_url }}" alt="Number of R=0.4 jets per R=1 jet">
 </div>
-<div class="caption">Left: event display with $$R=0.4$$ jets (red) reclustered into $$R=1.0$$ jets (blue). Right: number of $$R=0.4$$ jets per $$R=1.0$$ hybrid jet.</div>
+<div class="caption">Left: event display with \(R=0.4\) jets (red) reclustered into \(R=1.0\) jets (blue). Right: number of \(R=0.4\) jets per \(R=1.0\) hybrid jet.</div>
 
 <div class="row">
 <img src="{{ '/assets/img/hybridjets/hybrid-mass.png' | relative_url }}" alt="Track-based large-R jet mass">
 <img src="{{ '/assets/img/hybridjets/hybrid-ntrk.png' | relative_url }}" alt="Large-R track multiplicity">
 </div>
-<div class="caption">Track-based large-R jet mass (left) and track multiplicity (right), using tracks associated with the $$R=0.4$$ jets vs. all tracks in the $$R=1.0$$ jet.</div>
+<div class="caption">Track-based large-R jet mass (left) and track multiplicity (right), using tracks associated with the \(R=0.4\) jets vs. all tracks in the \(R=1.0\) jet.</div>
 
 ## Next steps
 
