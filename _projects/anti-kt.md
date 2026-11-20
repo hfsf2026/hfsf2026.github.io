@@ -3,7 +3,7 @@ title: Anti-kt Clustering
 description: Sequential recombination with infrared and collinear safety.
 img: assets/img/anti-kt.svg
 category: Jet Definitions
-importance: 1
+importance: 2
 math: true
 ---
 
