@@ -53,8 +53,9 @@ where energy is spread across many soft, wide angle objects that a hard small-R 
 ## Simulation
 
 - $$\sqrt{s} = 14$$ TeV $$pp$$ collisions with full ATLAS detector simulation and pileup overlay reweighted to HL-LHC conditions.
-- *MC Samples:* Pythia 8 multijet samples 
-- *If time permits:* we will use a sample of $$W$$ jets from $$W' \to WZ \to qqqq$$ with $$m_{W'} = 2$$ TeV, reweighted to a flat $$p_T$$ spectrum.
+- *MC Samples :* Pythia 8 multijet samples 
+- *If time permits :* we will use a sample of $$W$$ jets from $$W' \to WZ \to qqqq$$ with $$m_{W'} = 2$$ TeV, reweighted to a flat $$p_T$$ spectrum.
+- You can find the samples here : *TBD*
 
 ## First results
 
