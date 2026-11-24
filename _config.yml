@@ -16,6 +16,7 @@ url: ""
 project_categories:
   - Jet Reconstruction
   - Jet Definitions
+  - Constituent Calibration
   - HL-LHC
 
 # ---------------------------------------------------------------
