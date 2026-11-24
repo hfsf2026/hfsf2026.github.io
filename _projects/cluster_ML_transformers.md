@@ -37,7 +37,7 @@ The data are full MC23 simulations of LHC Run 3 _pp_ collisions with pile-up app
 
 The performance of the learned calibration function can be tested using two metrics, the _prediction power_ $$\Delta_{\mathcal{R}}$$ 
 ```math
-\Delta_{\mathcal{R}} = \frac{\mathcal{R}}_{\text{clus}}^{\text{ML}}{\mathcal{R}_{\text{clus}}^{\text{EM}}}
+\Delta_{\mathcal{R}} = \frac{\mathcal{R}}_{\rm clus}^{\text{ML}}}{\mathcal{R}_{\rm clus}^{\rm EM}}
 ```
 
 and the _signal linearity_ $$\Delta_{E}$$
