@@ -43,6 +43,6 @@ and the (deviation from) _signal linearity_ $$\Delta_{E}$$ measured by
 ```math
 \Delta_{E} = \frac{E_{\text{clus}}^{\text{ML}}}{E_{\text{clus}}^{\text{dep}}} - 1\;.
 ```
-Here $\mathcal{R}_{\text{clus}}^{\text{ML}}$ is the response learned for a given topo-cluster from its feature set, and $\mathcal{R}_{\text{clus}}^{\text{EM}} = E_{\text{clus}}^{\text{EM}}/E__{\text{clus}}^{\text{dep}}$ is the _calibration target_, that is the simulated response of the cluster at electromagnetic (EM) scale, with $E_{\text{clus}}^{\text{EM}}$ being the signal at that scale (including pile-up) and $E_{\text{clus}}^{\text{dep}}$ the energy deposited by particles emerging from the hard scatter interaction and deposited into this cluster. 
+Here $\mathcal{R}\_{\text{clus}}^{\text{ML}}$ is the response learned for a given topo-cluster from its feature set, and $\mathcal{R}_{\text{clus}}^{\text{EM}} = E_{\text{clus}}^{\text{EM}}/E__{\text{clus}}^{\text{dep}}$ is the _calibration target_, that is the simulated response of the cluster at electromagnetic (EM) scale, with $E_{\text{clus}}^{\text{EM}}$ being the signal at that scale (including pile-up) and $E_{\text{clus}}^{\text{dep}}$ the energy deposited by particles emerging from the hard scatter interaction and deposited into this cluster. 
 
 
