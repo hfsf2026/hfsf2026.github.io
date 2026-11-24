@@ -35,13 +35,13 @@ The data are full MC23 simulations of LHC Run 3 _pp_ collisions with pile-up app
 
 ### Performance evaluations
 
-The performance of the learned calibration function can be tested using two metrics, the _prediction power_ measured by $\Delta_{\mathcal{R}}$, with 
+The performance of the learned calibration function can be tested using two metrics, the _prediction power_ measured by $\Delta\_{\mathcal{R}}$, with 
 ```math
-\Delta_{\mathcal{R}} = \frac{\mathcal{R}_{\text{clus}}^{\text{ML}}}{\mathcal{R}_{\text{clus}}^{\text{EM}}} - 1
+\Delta\_{\mathcal{R}} = \frac{\mathcal{R}\_{\text{clus}}^{\text{ML}}}{\mathcal{R}\_{\text{clus}}^{\text{EM}}} - 1
 ```
 and the (deviation from) _signal linearity_ $$\Delta_{E}$$ measured by
 ```math
-\Delta_{E} = \frac{E_{\text{clus}}^{\text{ML}}}{E_{\text{clus}}^{\text{dep}}} - 1\;.
+\Delta\_{E} = \frac{E\_{\text{clus}}^{\text{ML}}}{E\_{\text{clus}}^{\text{dep}}} - 1\;.
 ```
 Here $\mathcal{R}\_{\text{clus}}^{\text{ML}}$ is the response learned for a given topo-cluster from its feature set, and $\mathcal{R}_{\text{clus}}^{\text{EM}} = E_{\text{clus}}^{\text{EM}}/E__{\text{clus}}^{\text{dep}}$ is the _calibration target_, that is the simulated response of the cluster at electromagnetic (EM) scale, with $E_{\text{clus}}^{\text{EM}}$ being the signal at that scale (including pile-up) and $E_{\text{clus}}^{\text{dep}}$ the energy deposited by particles emerging from the hard scatter interaction and deposited into this cluster. 
 
