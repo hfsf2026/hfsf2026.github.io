@@ -2,6 +2,7 @@
 title: Topo-cluster calibration with a transformer network
 description: Calibrating topological cell signal clusters in the ATLAS calorimeter with a transformer network
 img:
+contact: Peter Loch (topo-cluster calibration), Jad Sardain (technical support)
 category: Constituent Calibration
 importance: 1
 math: true
